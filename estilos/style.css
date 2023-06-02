@@ -63,6 +63,11 @@ div#formulario > h1{
     text-align: center;
 }
 
+div#formulario > p{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
 div.campo{
     background-color: #D9A171;
     color: #0d0407;
@@ -116,6 +121,10 @@ form > input[type=submit]:hover{
     cursor: pointer;
 }
 
+form > a > span{
+    transform: translateY(5px);
+}
+
 form> a.botao{
     display: block;
     background-color:#0d0407;
@@ -133,4 +142,6 @@ a.botao:hover{
     color: #0d0407;
     border: none;
 }
+
+
 

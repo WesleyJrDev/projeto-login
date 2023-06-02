@@ -13,14 +13,14 @@ Extra large screens, TV – 1201px, and more. */
 
     section#login{
         width: 650px;
-        
+        height: 400px;
     }
 
     section#login > div#imagem{
         float: left;
         width: 50%;
         height: 100%;
-        background-position-x: -300px;
+        background-position-x: -150px;
     }
 
     section#login > div#formulario{
@@ -36,7 +36,8 @@ Extra large screens, TV – 1201px, and more. */
     }
 
     div#formulario>p{
-        font-size: 1.5em;
+        font-size: 1em;
+        padding: 10px;
     }
 }
 
@@ -68,7 +69,8 @@ Extra large screens, TV – 1201px, and more. */
         font-size: 4em;
     }
 
-    div#formulario>p{
-        font-size: 2em;
+    div#formulario p{
+        font-size: 1.5em;
+        padding:20px;
     }
 }
